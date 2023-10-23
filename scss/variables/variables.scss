@@ -1,0 +1,35 @@
+// Primary colors
+// bg
+$light-red: hsla(0, 100%, 67%, 0.1);
+$orangey-yellow: hsla(39, 100%, 56%, 0.1);
+$green-teal: hsla(166, 100%, 37%, 0.1);
+$cobalt-blue: hsla(234, 85%, 45%, 0.1);
+// text
+
+$light-red-text: hsla(0, 100%, 67%, 0.8);
+$orangey-yellow-text: hsla(39, 100%, 56%, 0.8);
+$green-teal-text: hsla(166, 100%, 37%, 0.8);
+$cobalt-blue-text: hsla(234, 85%, 45%, 0.8);
+
+// Gradients
+$light-slate-blue-background: hsl(252, 100%, 67%);
+$light-royal-blue-background: hsl(241, 81%, 54%);
+
+$violet-blue-circle: hsla(256, 72%, 46%, 1);
+$persian-blue-circle: hsla(241, 57%, 33%, 0);
+
+// Neutral colors
+$white: hsl(0, 0%, 100%);
+$white-pale: hsla(0, 0%, 100%, 0.7);
+$black-pale: hsla(0, 0%, 0%, 0.5);
+
+$pale-blue: hsl(221, 100%, 96%);
+$light-lavender: hsl(241, 100%, 89%);
+$dark-gray-blue: hsl(224, 30%, 27%);
+
+$font-size-paragraph: 14px;
+
+// Fonts
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
