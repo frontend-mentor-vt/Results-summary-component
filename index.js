@@ -1,5 +1,4 @@
 const summaryList = document.querySelector(".summary__list");
-console.log(summaryList);
 
 fetch("./data.json")
   .then((response) => response.json())
