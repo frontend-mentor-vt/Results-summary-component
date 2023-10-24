@@ -237,6 +237,10 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
+.summary__button:hover {
+  background-color: hsl(252, 100%, 67%);
+}
+
 @media screen and (max-width: 420px) {
   .summary {
     width: 95%;
