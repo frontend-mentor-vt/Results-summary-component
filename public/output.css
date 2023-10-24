@@ -172,6 +172,9 @@ input::-webkit-inner-spin-button {
 .summary {
   width: 100%;
   padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .summary .summary__title {
   margin-bottom: 18px;
@@ -181,11 +184,12 @@ input::-webkit-inner-spin-button {
 .summary__list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-bottom: 30px;
+  justify-content: space-evenly;
+  flex: 1;
+  margin-bottom: 18px;
 }
 .summary__list .summary__item {
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -234,7 +238,7 @@ input::-webkit-inner-spin-button {
   color: hsl(0, 0%, 100%);
   width: 100%;
   border-radius: 20px;
-  padding: 12px;
+  padding: 15px;
   border: none;
   cursor: pointer;
 }

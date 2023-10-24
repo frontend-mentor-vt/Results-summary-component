@@ -20,7 +20,7 @@ fetch("./data.json")
       </p>
         `;
       listItem.innerHTML = itemHTML;
-      summaryList.appendChild(listItem);
+      summaryList.insertAdjacentElement("beforeend",listItem);
     });
   })
   .catch((error) => {
