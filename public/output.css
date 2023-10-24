@@ -11,6 +11,8 @@
   display: flex;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
+  min-width: 600px;
+  min-height: 460px;
 }
 
 @media screen and (max-width: 420px) {
@@ -235,6 +237,10 @@ input::-webkit-inner-spin-button {
   padding: 12px;
   border: none;
   cursor: pointer;
+}
+
+.summary__button:hover {
+  background-color: hsl(252, 100%, 67%);
 }
 
 @media screen and (max-width: 420px) {

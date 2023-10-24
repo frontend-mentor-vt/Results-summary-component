@@ -71,6 +71,9 @@
   border: none;
   cursor: pointer;
 }
+.summary__button:hover {
+  background-color: $light-slate-blue-background;
+}
 
 @media screen and (max-width: 420px) {
   .summary {
