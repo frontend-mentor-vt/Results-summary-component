@@ -12,7 +12,7 @@ fetch("./data.json")
 
       const itemHTML = `
         <div class="summary__item-icon-wrapp">
-        <img src=${el.icon} />
+        <img src=${el.icon} alt="icon" />
         <p class='summary__text ${textClass}'>${el.category}</p>
       </div>
       <p class="summary__numbers">
